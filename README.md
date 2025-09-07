@@ -1,5 +1,6 @@
 # depot_backend
-making the depot backend for sih project'2025
+making the depot backend for SIH project'2025 named as 
+Real-Time Public Transport Tracking for Small Cities :
 
 
 Here is a comprehensive list of all the API endpoints in bus management system, categorized by function.
