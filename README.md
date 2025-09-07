@@ -56,13 +56,13 @@ Description: Deletes a bus from the depot.
 Requires: A valid JWT in the Authorization header and the bus ID in the URL.
 Returns: A success message.
 
-PATCH /api/bus/:id/toggle-status 
+PATCH /api/bus/:id/toggle-status   
 Description: Toggles a bus's isActive status (e.g., to activate or deactivate it).
 Requires: A valid JWT in the Authorization header and the bus ID in the URL.
 Returns: The updated bus object.
 
 Statistics
-GET /api/bus/stats/overview
+GET /api/bus/stats/overview  
 Description: Provides an overview of bus statistics for the authenticated depot.
 Requires: A valid JWT in the Authorization header.
 Returns: Counts for total, active, and inactive buses, as well as the total number of unique routes.
